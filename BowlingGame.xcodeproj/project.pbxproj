@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090EC6792019C0F0000A4055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EC6782019C0F0000A4055 /* AppDelegate.swift */; };
+		090EC67B2019C0F0000A4055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EC67A2019C0F0000A4055 /* ViewController.swift */; };
+		090EC67E2019C0F0000A4055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090EC67C2019C0F0000A4055 /* Main.storyboard */; };
+		090EC6802019C0F0000A4055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090EC67F2019C0F0000A4055 /* Assets.xcassets */; };
+		090EC6832019C0F0000A4055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090EC6812019C0F0000A4055 /* LaunchScreen.storyboard */; };
+		090EC68E2019C0F0000A4055 /* BowlingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EC68D2019C0F0000A4055 /* BowlingGameTests.swift */; };
+		090EC69A2019C133000A4055 /* BowlingScorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EC6992019C133000A4055 /* BowlingScorer.swift */; };
+		090EC69C2019D9DF000A4055 /* BowlingFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EC69B2019D9DF000A4055 /* BowlingFrameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		090EC68A2019C0F0000A4055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090EC66D2019C0EF000A4055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090EC6742019C0EF000A4055;
+			remoteInfo = BowlingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090EC6752019C0EF000A4055 /* BowlingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowlingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090EC6782019C0F0000A4055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		090EC67A2019C0F0000A4055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		090EC67D2019C0F0000A4055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		090EC67F2019C0F0000A4055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		090EC6822019C0F0000A4055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		090EC6842019C0F0000A4055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090EC6892019C0F0000A4055 /* BowlingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		090EC68D2019C0F0000A4055 /* BowlingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingGameTests.swift; sourceTree = "<group>"; };
+		090EC68F2019C0F0000A4055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090EC6992019C133000A4055 /* BowlingScorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingScorer.swift; sourceTree = "<group>"; };
+		090EC69B2019D9DF000A4055 /* BowlingFrameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingFrameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090EC6722019C0EF000A4055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090EC6862019C0F0000A4055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090EC66C2019C0EF000A4055 = {
+			isa = PBXGroup;
+			children = (
+				090EC6772019C0EF000A4055 /* BowlingGame */,
+				090EC68C2019C0F0000A4055 /* BowlingGameTests */,
+				090EC6762019C0EF000A4055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090EC6762019C0EF000A4055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090EC6752019C0EF000A4055 /* BowlingGame.app */,
+				090EC6892019C0F0000A4055 /* BowlingGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090EC6772019C0EF000A4055 /* BowlingGame */ = {
+			isa = PBXGroup;
+			children = (
+				090EC6982019C120000A4055 /* Controller */,
+				090EC6782019C0F0000A4055 /* AppDelegate.swift */,
+				090EC67A2019C0F0000A4055 /* ViewController.swift */,
+				090EC67C2019C0F0000A4055 /* Main.storyboard */,
+				090EC67F2019C0F0000A4055 /* Assets.xcassets */,
+				090EC6812019C0F0000A4055 /* LaunchScreen.storyboard */,
+				090EC6842019C0F0000A4055 /* Info.plist */,
+			);
+			path = BowlingGame;
+			sourceTree = "<group>";
+		};
+		090EC68C2019C0F0000A4055 /* BowlingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				090EC68D2019C0F0000A4055 /* BowlingGameTests.swift */,
+				090EC68F2019C0F0000A4055 /* Info.plist */,
+				090EC69B2019D9DF000A4055 /* BowlingFrameTests.swift */,
+			);
+			path = BowlingGameTests;
+			sourceTree = "<group>";
+		};
+		090EC6982019C120000A4055 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				090EC6992019C133000A4055 /* BowlingScorer.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090EC6742019C0EF000A4055 /* BowlingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090EC6922019C0F0000A4055 /* Build configuration list for PBXNativeTarget "BowlingGame" */;
+			buildPhases = (
+				090EC6712019C0EF000A4055 /* Sources */,
+				090EC6722019C0EF000A4055 /* Frameworks */,
+				090EC6732019C0EF000A4055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BowlingGame;
+			productName = BowlingGame;
+			productReference = 090EC6752019C0EF000A4055 /* BowlingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		090EC6882019C0F0000A4055 /* BowlingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090EC6952019C0F0000A4055 /* Build configuration list for PBXNativeTarget "BowlingGameTests" */;
+			buildPhases = (
+				090EC6852019C0F0000A4055 /* Sources */,
+				090EC6862019C0F0000A4055 /* Frameworks */,
+				090EC6872019C0F0000A4055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090EC68B2019C0F0000A4055 /* PBXTargetDependency */,
+			);
+			name = BowlingGameTests;
+			productName = BowlingGameTests;
+			productReference = 090EC6892019C0F0000A4055 /* BowlingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090EC66D2019C0EF000A4055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Muhammad Fahied";
+				TargetAttributes = {
+					090EC6742019C0EF000A4055 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					090EC6882019C0F0000A4055 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 090EC6742019C0EF000A4055;
+					};
+				};
+			};
+			buildConfigurationList = 090EC6702019C0EF000A4055 /* Build configuration list for PBXProject "BowlingGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 090EC66C2019C0EF000A4055;
+			productRefGroup = 090EC6762019C0EF000A4055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090EC6742019C0EF000A4055 /* BowlingGame */,
+				090EC6882019C0F0000A4055 /* BowlingGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090EC6732019C0EF000A4055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090EC6832019C0F0000A4055 /* LaunchScreen.storyboard in Resources */,
+				090EC6802019C0F0000A4055 /* Assets.xcassets in Resources */,
+				090EC67E2019C0F0000A4055 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090EC6872019C0F0000A4055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090EC6712019C0EF000A4055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090EC67B2019C0F0000A4055 /* ViewController.swift in Sources */,
+				090EC6792019C0F0000A4055 /* AppDelegate.swift in Sources */,
+				090EC69A2019C133000A4055 /* BowlingScorer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090EC6852019C0F0000A4055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090EC69C2019D9DF000A4055 /* BowlingFrameTests.swift in Sources */,
+				090EC68E2019C0F0000A4055 /* BowlingGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		090EC68B2019C0F0000A4055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090EC6742019C0EF000A4055 /* BowlingGame */;
+			targetProxy = 090EC68A2019C0F0000A4055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		090EC67C2019C0F0000A4055 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090EC67D2019C0F0000A4055 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		090EC6812019C0F0000A4055 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090EC6822019C0F0000A4055 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090EC6902019C0F0000A4055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		090EC6912019C0F0000A4055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		090EC6932019C0F0000A4055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4F583AXT6;
+				INFOPLIST_FILE = BowlingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fahied.BowlingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		090EC6942019C0F0000A4055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4F583AXT6;
+				INFOPLIST_FILE = BowlingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fahied.BowlingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		090EC6962019C0F0000A4055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4F583AXT6;
+				INFOPLIST_FILE = BowlingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fahied.BowlingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BowlingGame.app/BowlingGame";
+			};
+			name = Debug;
+		};
+		090EC6972019C0F0000A4055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4F583AXT6;
+				INFOPLIST_FILE = BowlingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fahied.BowlingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BowlingGame.app/BowlingGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090EC6702019C0EF000A4055 /* Build configuration list for PBXProject "BowlingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090EC6902019C0F0000A4055 /* Debug */,
+				090EC6912019C0F0000A4055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090EC6922019C0F0000A4055 /* Build configuration list for PBXNativeTarget "BowlingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090EC6932019C0F0000A4055 /* Debug */,
+				090EC6942019C0F0000A4055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090EC6952019C0F0000A4055 /* Build configuration list for PBXNativeTarget "BowlingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090EC6962019C0F0000A4055 /* Debug */,
+				090EC6972019C0F0000A4055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090EC66D2019C0EF000A4055 /* Project object */;
+}
